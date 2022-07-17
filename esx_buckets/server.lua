@@ -6,7 +6,7 @@ ESX = nil
 --Would love to see your changes!
 --For any problem you encounter either try fixing it yourself if you do have some progamming knowledge either contact me about the "BUG" at Fuego#2486
 
-local bucketList = {} --listed via id and returns id
+local bucketList = {} --listed via player server id and returns id
 local activeBuckets = {} --Listed via name and returns id
 local activeIntegerBuckets = {} --Listed via id and returns name
 GlobalState.ESXBuckets = {} --Global BucketList
