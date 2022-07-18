@@ -146,7 +146,7 @@ end
 
 function getPlayersCurrentBucketName(playerSource)
     local src = tonumber(playerSource)
-    return activeBuckets[bucketList[src]]
+    return activeIntegerBuckets[bucketList[src]]
 end
 
 function isPlayersInTheSameBucket(playerOne,PlayerTwo)
